@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/weave-core",
+    "crates/weave-authoring",
+    "crates/weave-ports",
+    "crates/weave-application",
+    "adapters/postgres",
+    "tools/repository-quality",
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.94"
+publish = false
+license = "AGPL-3.0-or-later"
+
+[workspace.dependencies]
+weave-core = { path = "crates/weave-core" }
+weave-authoring = { path = "crates/weave-authoring" }
+weave-ports = { path = "crates/weave-ports" }
+weave-application = { path = "crates/weave-application" }
+weave-postgres = { path = "adapters/postgres" }
+weave-repository-quality = { path = "tools/repository-quality" }
+rtepl-repository = { git = "https://github.com/getHarshOnline/rtepl-common.git", rev = "13060ae859f5820efd5641d5145563c8a0e1452e" }
+
+[workspace.lints.rust]
+missing_docs = "deny"
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+missing_errors_doc = "deny"
+missing_panics_doc = "deny"

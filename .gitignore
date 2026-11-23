@@ -1,0 +1,36 @@
+# Operating systems and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Rust
+target/
+*.profraw
+*.profdata
+
+# JavaScript and TypeScript
+node_modules/
+.pnpm-store/
+dist/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Go and general test output
+*.test
+*.out
+*.log

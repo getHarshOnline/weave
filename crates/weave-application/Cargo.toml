@@ -1,0 +1,16 @@
+[package]
+name = "weave-application"
+autotests = false
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+description = "Weave's use cases: the definition, permission, command, query and transition logic between interfaces and storage."
+
+[dependencies]
+weave-core.workspace = true
+weave-ports.workspace = true
+
+[lints]
+workspace = true

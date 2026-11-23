@@ -1,0 +1,3 @@
+[build]
+# Limit growth from repeated agent and test builds.
+incremental = false

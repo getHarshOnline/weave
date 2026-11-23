@@ -1,0 +1,15 @@
+[package]
+name = "weave-authoring"
+autotests = false
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+description = "Builders that let a domain define its records, relationships and operations as inert data, reaching only weave-core."
+
+[dependencies]
+weave-core.workspace = true
+
+[lints]
+workspace = true

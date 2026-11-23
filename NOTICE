@@ -1,0 +1,19 @@
+Weave
+Copyright © 2026 RawThoughts Enterprises Private Limited.
+Author and originator: Harsh Joshi.
+
+Original implementation: AGPL-3.0-or-later (LICENSE). That covers the engine,
+application, infrastructure adapters, interfaces, integrations, first-party
+domains, Rust SDK and repository tools. Alternative terms require a separate
+written agreement with RawThoughts Enterprises Private Limited.
+
+Generated contracts and genuinely thin remote bindings will use Apache-2.0,
+each with its own LICENSE and NOTICE where it first exists. Semantic logic is
+not a thin binding, and Apache-2.0 on a contract or binding does not move
+Weave's engine out of its AGPL-3.0-or-later source homes. A binding that links
+or embeds the engine leaves the engine under AGPL-3.0-or-later and does not
+relicense the combined artifact.
+
+Repository-check mechanics are supplied by rtepl-common, extracted from
+Pale and Gazette under AGPL-3.0-or-later. Third-party dependencies retain
+their own terms.

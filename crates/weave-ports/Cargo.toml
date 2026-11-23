@@ -1,0 +1,15 @@
+[package]
+name = "weave-ports"
+autotests = false
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+description = "Narrow contracts through which Weave's application reaches storage, object storage, cache, wake, queue, search, clock, identity, secrets, observability, effects and event publication."
+
+[dependencies]
+weave-core.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,22 @@
+[package]
+name = "weave-repository-quality"
+autotests = false
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+description = "Home of the architecture test that checks Weave's dependency graph and source rules against its intended layering."
+
+[dependencies]
+
+[dev-dependencies]
+rtepl-repository.workspace = true
+serde_json = "1"
+
+[[test]]
+name = "architecture"
+path = "../../tests/architecture/main.rs"
+
+[lints]
+workspace = true

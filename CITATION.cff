@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Weave"
+type: software
+version: 0.0.1
+authors:
+  - family-names: "Joshi"
+    given-names: "Harsh"
+    email: "info@rawthoughts.in"
+    website: "https://rawthoughts.in"
+    affiliation: "RawThoughts Enterprises Private Limited"
+repository-code: "https://github.com/getHarshOnline/weave"
+url: "https://rawthoughts.in/weave"
+abstract: >-
+  Weave is a headless backend that does the jobs of a work tracker and a
+  relationship manager together, for organisations whose members include
+  people and agents. A read says what else to read, and a write is tried for
+  what it affects before it is committed. This repository holds the design and
+  the layered Rust crates; the first service is still to be built.
+keywords:
+  - agent-coordination
+  - work-tracking
+  - relationship-management
+  - agentic-systems
+license: AGPL-3.0-or-later
